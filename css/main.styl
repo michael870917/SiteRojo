@@ -1,0 +1,288 @@
+@import ('nib/vendor')
+@import ('nib/gradients')
+
+*
+	margin 0
+	padding 0
+
+
+html,body 
+	background #820409
+	height 100%
+	margin 0
+	padding 0
+	width 100%
+
+html
+	overflow: auto
+
+body 
+	-moz-background-size  100% 100%, auto
+	-o-background-size  100% 100%, auto
+	-webkit-background-size 100% 100%, auto
+	background-attachment fixed
+	background-image url(../images/background.png)
+	background-position center center
+	background-repeat no-repeat
+	background-size  100% 100%, auto
+	color white
+	font-family 'Yeseva One', cursive	
+	font-size 16px
+
+	/*
+	scrollbar-face-color #008080
+	scrollbar-highlight-color #ff69b4
+	scrollbar-shadow-color #f0f
+	scrollbar-3dlight-color #ffd700
+	scrollbar-arrow-color #ff0
+	scrollbar-darkshadow-color #ffa500
+	*/
+
+
+footer	
+	color white
+	text-shadow 1px 1px 3px black	
+	text-align center	
+	width 100%
+	.seccionado
+		.menualt
+			.alter						
+				.menuf
+					margin 0 
+					overflow-x auto
+					overflow-y hidden
+					padding 0		
+					text-align center		
+					white-space nowrap
+					li
+						display inline-block
+						padding-left 1.5em
+						margin-top 8px
+						a
+							color white
+							font-size 9px
+							font-weight normal
+							text-decoration none
+							text-shadow 1px 1px 3px black
+
+						a:hover
+							color #FAFAFA
+							text-shadow 1px 1px 3px white	
+		
+		.limpia
+			clear both
+
+		.seccionadofinal
+			margin 0
+			padding 0
+			overflow hidden
+			
+			.social				
+				text-align center
+								
+
+header
+	
+	nav
+		
+		.menu
+			margin 0 
+			overflow-x auto
+			overflow-y hidden
+			padding 0		
+			text-align center		
+			white-space nowrap
+			li
+				display inline-block
+				margin-left 2.3em
+				margin-top 8px
+				a
+					color white
+					font-size 13px
+					font-weight normal
+					text-decoration none
+					text-shadow 1px 1px 3px black
+
+				a:hover
+					color #FAFAFA
+					text-shadow 1px 1px 3px white	
+	
+	.linea			
+		margin-top 10px
+
+		.line
+			background: linear-gradient(top, #8f4345, #542426);
+			border none
+			box-shadow 1px 1px 4px black			
+			height 2px		
+			width 100%		
+	
+.posts
+	margin 0 auto
+	
+	.centrado
+		text-align center
+		width 100%
+
+		.acomoda
+		.acomoda2			
+			overflow hidden				
+
+			.normalLetter
+			.normalLetter2
+				font-size 1.4em
+				letter-spacing 4px	
+
+		.acomoda
+			
+			p
+				display inline-block
+				vertical-align middle
+
+
+			.bigLetter		
+				font-size 2.5em
+
+		.acomoda2
+			
+			.normalLetter2
+				margin-top -7px
+				margin-left 2px
+						
+	
+	.banner
+	.post	
+		position relative
+		overflow hidden	
+
+		.bannersito		
+		.captions	
+			img
+				width 100%
+				height auto
+		
+
+	.banner	
+		
+
+		.content
+			bottom 0
+			font-size 12px
+			height 80%
+			margin-top 5px
+			overflow auto
+			overflow-x hidden
+			padding 5px
+			position absolute
+			text-align justify
+			top 0
+			width 50%
+
+	.post
+		
+		.content2
+			bottom -100px
+			font-size 12px
+			color #870303
+			height 80%			
+			overflow auto
+			overflow-x hidden
+			padding 15px
+			position absolute
+			text-align justify			
+			width 50%
+	
+	.linea2			
+		margin-top 10px
+
+		.line2
+			background: linear-gradient(bottom, #720d07, #5e0306);
+			border none
+			box-shadow 1px 1px 4px black			
+			height 2px		
+			width 100%				
+				
+@media screen and (min-width: 600px)		
+	.posts
+		width 80%			
+		.banner	
+			width 96%
+			margin-left 2%
+			margin-right 2%
+			.content			
+				font-size .8em			
+				margin-top 8px			
+				padding 10px
+				margin-left 10px				
+				p			
+					margin-bottom 20px
+
+		.post				
+			width 100%
+			.content2
+				top 250px
+				margin-left 20px
+				
+
+@media screen and (min-width: 768px)
+
+
+	footer
+		.seccionado			
+			.menualt
+				float left
+				
+				.alter
+					margin-left 85px
+				
+				.copyright
+					margin-left -80px
+					font-size 12px
+					p
+						display inline-block
+					
+				
+					
+
+	.posts
+		width 82%
+					
+		.banner	
+			width 100%
+			margin-left 0%
+			margin-right 0%
+			.content			
+				font-size .8em			
+				margin-top 10px			
+				padding 10px
+
+				p			
+					margin-bottom 20px
+					margin-left 15px
+
+
+		
+	
+	
+		.post	
+			display inline-block
+			vertical-align top		
+			width 32.9%
+
+			.content2
+				top 90px
+				
+			
+				
+				
+
+@media screen and (min-width: 1024px)
+	
+	footer
+		padding 0
+	
+
+		
+				
+	
+	
